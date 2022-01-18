@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaVideoEditorTrimSDK
 import AVFoundation
 import AVKit
@@ -216,6 +216,11 @@ public class SequencesService : BanubaVideoEditorTrimSDK.SequencesServicing {
   public func setEditingStep(_ editingStep: BanubaUtilities.VideoSequenceEditingStep, forSequence videoSequence: VideoEditor.VideoSequence)
   @objc deinit
 }
+public struct SplitVideoTimeValidator {
+  public let minVideoPartDuration: Foundation.TimeInterval
+  public init(minVideoPartDuration: Foundation.TimeInterval)
+  public func canSplitTrackWithTimeRangeInGlobal(_ timeRangeInGlobal: CoreMedia.CMTimeRange, atCompositionTime time: CoreMedia.CMTime) -> Swift.Bool
+}
 public protocol AspectsServicing {
   func setupWithVideoResolution(_ videoResolution: BanubaUtilities.VideoResolution)
   func getAspectedVideoSize(forVideoEditorAsset videoEditorAsset: VideoEditor.VideoEditorAsset, withAspectRatio aspectRatio: BanubaUtilities.AspectRatio) -> CoreGraphics.CGSize
@@ -244,6 +249,7 @@ public enum TrimServiceError : Swift.Error {
     get
   }
 }
+public typealias OriginalSplittedTracks = (VideoEditor.VideoEditorAssetTrackInfo, VideoEditor.VideoEditorAssetTrackInfo)
 public class TrimService {
   final public let sdk: BanubaVideoEditorTrimSDK.TrimSDKServicing
   final public let videoSequence: VideoEditor.VideoSequence
@@ -253,7 +259,8 @@ public class TrimService {
   public var addedPartsCount: Swift.Int {
     get
   }
-  public init(sdk: BanubaVideoEditorTrimSDK.TrimSDKServicing, videoSequence: VideoEditor.VideoSequence, videoResolution: BanubaUtilities.VideoResolutionConfiguration)
+  final public let isVideoFitsAspect: Swift.Bool
+  public init(sdk: BanubaVideoEditorTrimSDK.TrimSDKServicing, isVideoFitsAspect: Swift.Bool, videoSequence: VideoEditor.VideoSequence, videoResolution: BanubaUtilities.VideoResolutionConfiguration)
   @objc deinit
 }
 extension BanubaVideoEditorTrimSDK.TrimService {
@@ -274,6 +281,7 @@ extension BanubaVideoEditorTrimSDK.TrimService {
   public func moveTrack(fromIndex: Swift.Int, toIndex: Swift.Int)
   public func track(at index: Swift.Int) -> VideoEditor.VideoEditorAssetTrackInfo?
   public func index(of trackInfo: VideoEditor.VideoEditorAssetTrackInfo) -> Swift.Int?
+  public func splitTrack(_ track: VideoEditor.VideoEditorAssetTrackInfo, atTime time: CoreMedia.CMTime) -> BanubaVideoEditorTrimSDK.OriginalSplittedTracks?
 }
 extension BanubaVideoEditorTrimSDK.TrimService {
   public func reloadComposition()
