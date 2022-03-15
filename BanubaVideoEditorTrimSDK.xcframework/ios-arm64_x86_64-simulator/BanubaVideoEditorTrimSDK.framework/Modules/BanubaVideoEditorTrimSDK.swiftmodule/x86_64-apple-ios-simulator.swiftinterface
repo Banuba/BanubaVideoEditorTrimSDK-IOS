@@ -4,12 +4,12 @@
 import AVFoundation
 import AVKit
 import BanubaUtilities
-import BanubaVideoEditorEffectsSDK
 @_exported import BanubaVideoEditorTrimSDK
 import CoreMedia
 import Foundation
 import Swift
 import UIKit
+import VEEffectsSDK
 import VideoEditor
 import _Concurrency
 public struct VideoDurationDefaults {
@@ -63,19 +63,6 @@ public class TrimMusicFitter {
   public func reloadMusic()
   public func duplicateMusicURL(_ url: Foundation.URL) -> Foundation.URL
   public func applyMusic(forTrackInfo trackInfo: VideoEditor.VideoEditorAssetTrackInfo, withTimeRangeInGlobal timeRangeInGlobal: CoreMedia.CMTimeRange, trimTimeRange: CoreMedia.CMTimeRange, inAsset asset: VideoEditor.VideoEditorAsset)
-  @objc deinit
-}
-public class TrimSequenceItem {
-  final public let trimTimeRange: CoreMedia.CMTimeRange
-  final public let url: Foundation.URL
-  public init(trackInfo: VideoEditor.VideoEditorAssetTrackInfo)
-  @objc deinit
-}
-public class TrimSequenceComparator {
-  final public let videoEditorAsset: VideoEditor.VideoEditorAsset
-  public init(videoEditorAsset: VideoEditor.VideoEditorAsset)
-  public func wasChanged() -> Swift.Bool
-  public func wasReordered() -> Swift.Bool
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class VideoEditorTrackRotationCalculator {
@@ -174,11 +161,12 @@ public class ImportVideoTimeBehaviour {
   @objc deinit
 }
 public protocol SequencesServicing {
+  var aspectRatio: BanubaUtilities.AspectRatio { get }
   var currentSequence: VideoEditor.VideoSequence? { get }
   var lastModifiedSequence: VideoEditor.VideoSequence? { get }
   var sequences: [VideoEditor.VideoSequence] { get }
   var draftedSequences: [VideoEditor.VideoSequence] { get }
-  func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack?, isSlideShow: Swift.Bool, editingStep: BanubaUtilities.VideoSequenceEditingStep, aspect: BanubaUtilities.AspectRatio) -> VideoEditor.VideoSequence
+  func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack?, isSlideShow: Swift.Bool, editingStep: BanubaUtilities.VideoSequenceEditingStep) -> VideoEditor.VideoSequence
   func cancelAndRemoveCurrentSequence()
   @discardableResult
   func removeSequence(_ videoSequence: VideoEditor.VideoSequence) -> Swift.Bool
@@ -189,9 +177,10 @@ public protocol SequencesServicing {
   func setEditingStep(_ editingStep: BanubaUtilities.VideoSequenceEditingStep, forSequence videoSequence: VideoEditor.VideoSequence)
 }
 extension BanubaVideoEditorTrimSDK.SequencesServicing {
-  public func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack? = nil, isSlideShow: Swift.Bool = false, editingStep: BanubaUtilities.VideoSequenceEditingStep = .camera, aspect: BanubaUtilities.AspectRatio) -> VideoEditor.VideoSequence
+  public func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack? = nil, isSlideShow: Swift.Bool = false, editingStep: BanubaUtilities.VideoSequenceEditingStep = .camera) -> VideoEditor.VideoSequence
 }
 public class SequencesService : BanubaVideoEditorTrimSDK.SequencesServicing {
+  final public let aspectRatio: BanubaUtilities.AspectRatio
   public var currentSequence: VideoEditor.VideoSequence? {
     get
   }
@@ -206,8 +195,8 @@ public class SequencesService : BanubaVideoEditorTrimSDK.SequencesServicing {
   }
   final public let videoSequenceService: VideoEditor.VideoSequenceServicing
   final public let metadataStorage: BanubaVideoEditorTrimSDK.VideoMetadataStoring
-  public init(videoSequenceService: VideoEditor.VideoSequenceServicing, metadataStorage: BanubaVideoEditorTrimSDK.VideoMetadataStoring)
-  public func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack?, isSlideShow: Swift.Bool, editingStep: BanubaUtilities.VideoSequenceEditingStep, aspect: BanubaUtilities.AspectRatio) -> VideoEditor.VideoSequence
+  public init(videoSequenceService: VideoEditor.VideoSequenceServicing, metadataStorage: BanubaVideoEditorTrimSDK.VideoMetadataStoring, aspectRatio: BanubaUtilities.AspectRatio)
+  public func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack?, isSlideShow: Swift.Bool, editingStep: BanubaUtilities.VideoSequenceEditingStep) -> VideoEditor.VideoSequence
   public func cancelAndRemoveCurrentSequence()
   public func removeSequence(_ videoSequence: VideoEditor.VideoSequence) -> Swift.Bool
   public func duplicateSequence(_ videoSequence: VideoEditor.VideoSequence, withSameName useSameName: Swift.Bool) -> (VideoEditor.VideoSequence, BanubaUtilities.VideoMetadata)
@@ -234,7 +223,7 @@ public class AspectsService : BanubaVideoEditorTrimSDK.AspectsServicing {
   public func getAspectRatio(forVideoEditorAsset asset: VideoEditor.VideoEditorAsset, withAspectRatio aspectRatio: BanubaUtilities.AspectRatio) -> Swift.Double
   @objc deinit
 }
-public protocol TrimSDKServicing : BanubaVideoEditorEffectsSDK.TransformEffectsSDKServicing, VideoEditor.VideoEditorSDKServicing {
+public protocol TrimSDKServicing : VEEffectsSDK.TransformEffectsSDKServicing, VideoEditor.VideoEditorSDKServicing {
   var sequencesService: BanubaVideoEditorTrimSDK.SequencesServicing { get }
   var aspectsService: BanubaVideoEditorTrimSDK.AspectsServicing { get }
   var metadataService: BanubaVideoEditorTrimSDK.VideoMetadataStoring { get set }
@@ -270,8 +259,8 @@ extension BanubaVideoEditorTrimSDK.TrimService {
   public func exportMusic()
 }
 extension BanubaVideoEditorTrimSDK.TrimService {
-  public func getPlayer(aspectRatio: BanubaUtilities.AspectRatio, delegate: BanubaUtilities.PlayerDelegate?) -> BanubaUtilities.Playable
-  public func getPlayerForSignleTrackInfo(_ trackInfo: VideoEditor.VideoEditorAssetTrackInfo, aspectRatio: BanubaUtilities.AspectRatio, trimTimeRange: CoreMedia.CMTimeRange, delegate: BanubaUtilities.PlayerDelegate?) -> BanubaUtilities.Playable
+  public func adjustPlayer(aspectRatio: BanubaUtilities.AspectRatio)
+  public func adjustPlayerForSignleTrackInfo(_ trackInfo: VideoEditor.VideoEditorAssetTrackInfo, aspectRatio: BanubaUtilities.AspectRatio, trimTimeRange: CoreMedia.CMTimeRange)
 }
 extension BanubaVideoEditorTrimSDK.TrimService {
   public func tracks() -> [VideoEditor.VideoEditorAssetTrackInfo]
