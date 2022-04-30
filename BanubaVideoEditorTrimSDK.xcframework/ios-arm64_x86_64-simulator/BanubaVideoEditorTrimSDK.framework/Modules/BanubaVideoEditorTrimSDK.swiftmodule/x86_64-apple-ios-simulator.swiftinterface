@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaVideoEditorTrimSDK
 import AVFoundation
 import AVKit
@@ -16,7 +16,7 @@ public struct VideoDurationDefaults {
   public static var shared: BanubaVideoEditorTrimSDK.VideoEditorDurationConfig
 }
 public struct VideoImportDefaults {
-  public static var maximumNumberOfVideos: Swift.Int
+  public static let maximumNumberOfVideos: Swift.Int
 }
 public struct VideoAspectRatio {
   public static var minFillAspectRatio: CoreGraphics.CGFloat {
@@ -289,3 +289,7 @@ extension BanubaVideoEditorTrimSDK.TrimService {
   public func getMaximumTrimDuration(for trackInfo: VideoEditor.VideoEditorAssetTrackInfo) -> CoreMedia.CMTime
   public func getAspectRatio() -> BanubaUtilities.AspectRatio?
 }
+extension BanubaVideoEditorTrimSDK.TimeResult : Swift.Equatable {}
+extension BanubaVideoEditorTrimSDK.TimeResult : Swift.Hashable {}
+extension BanubaVideoEditorTrimSDK.TrimServiceError : Swift.Equatable {}
+extension BanubaVideoEditorTrimSDK.TrimServiceError : Swift.Hashable {}
