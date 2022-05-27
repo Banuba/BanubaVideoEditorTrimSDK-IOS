@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BanubaVideoEditorTrimSDK-Swift.h</key>
 		<data>
-		EM5w7KjJjvm2NsGt5KvE8cdvrSo=
+		xBWkVSEMqJ83wRDF83/qbKE1uQI=
 		</data>
 		<key>Headers/BanubaVideoEditorTrimSDK.h</key>
 		<data>
@@ -14,39 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jGnkR17EqbBv+uH7xDzGhOrHxjs=
+		3EyNRfHiwv5ISEcgFn18i5LfPoY=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		1K4ML7kFW7Ux7EcawQ6CWVtwBM8=
+		ssODHdnVGDsjev39GZFdZm/g5UY=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		btslBfhr8jeCM7W585ehN8bO5zo=
+		0NZFueZbykJrAaUwPmn77HMXwfY=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ifIDjIQERtD2HdQm2Hc5q6/H1jA=
+		X08M+A+SHOKCHjObivuxVCJNVzg=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2gWNOGKIzNT2C/H3MJsbG+yuqpI=
+		IaHE7x0vOo+OOc+DNnitj+e6k3Y=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		m37lS/hCjQYFGg80fGkjjuzW8Tc=
+		Zrj5pY+NAhNKnNjaP6HXoGgfgD4=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		SoYJ5kNAnyIeMn+obpc5v8eCTdQ=
+		7WIZQGkrweBoqloDKjW9xwEYPVk=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		t83muce/lvsFc4ddcszJQ1Ar6eA=
+		5IIZWRgnpsla1FuS8h89UNtSobk=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DtWGG+nFHY5+cTMjTg9CM3nJpRQ=
+		T4PddXZ5j3JZS1CGqG1plgky7fY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rpxgjlYjlpnqpdHv3imJu2SICVJb2gHcvpPHxGH9rWk=
+			cFWPy+3ZC4cFWe+1DtQx5fYQsH1YdKjFQKjbpOBJa1s=
 			</data>
 		</dict>
 		<key>Headers/BanubaVideoEditorTrimSDK.h</key>
@@ -73,56 +73,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			arAqM4I6cNRYag7pgiqYo/u2yXGTXdlork0jnaCec30=
+			2Pw9lK8Rrio8MmwqPrb/naEoki2I3CLljCPEMXC+BOk=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5k2KUwKsTcVfj4SrEzbcOyZId+RlQGwCivkwM/SvACQ=
+			vdhRBzwChR/566JOetogWk7E9s6vaLY50UXKWHLMey8=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3zWJDdlzNHCw94uNbXIrchWIgyImFYy+UV7+edZum0A=
+			9HCczWvLZQJZKTmCh3cB7WxKKzFqiXMWNW+bf648iP8=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oi5mWl9fj8e0edLa9MTAGJ+a11b4zPLVkyL9jhmPlqA=
+			MDe/6+SFsQRF+t8bAspvYLcA2wRV95YgQyztQRdqmZw=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			El/DXh4s4qNm6xqxGhpzQ8rw8JVj2ESPprNk8yIYcJI=
+			v3rk9FMoAe21RTfFTUcCMcA0qPA+Q8pss5V6V5zFCHU=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bg2/p+ZAmRTwrCwnMCYZgq/fHf+S+pkutK1UgmrCo6M=
+			hhyrAghqQvEFciL/ePiWfTctBwTf/Q45B0mDdzxiJ4U=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0bcgZ1cc5HmkH3qS8/5KpFl6zc7DTiTuo2yK/SU5CQc=
+			9X53lezeHx3m3FkyFSxlxkvkMTrsdpwk7MQRkJk5THs=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nxjjU3TwZgCz3HFcY3pnddywhBcJZjZ4edKt9QORfEw=
+			fMs8f0eOP50oPph27wu8JPexQv8NqhepDyZRNIrLD0w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaVideoEditorTrimSDK
 import AVFoundation
 import AVKit
@@ -39,17 +39,6 @@ public struct VideoEditorDurationConfig {
   public init(maximumVideoDuration: Foundation.TimeInterval, minimumDurationFromCamera: Foundation.TimeInterval, minimumDurationFromGallery: Foundation.TimeInterval, minimumVideoDuration: Foundation.TimeInterval, minimumTrimmedPartDuration: Foundation.TimeInterval, slideshowDuration: Foundation.TimeInterval)
   public func isValidMaxDurationWithTolerance(_ duration: Foundation.TimeInterval) -> Swift.Bool
   public func validateTrimRecorderVideoSupporting(supportsTrimRecordedVideo: Swift.Bool)
-}
-public class Aspect {
-  public var aspectRatio: BanubaUtilities.AspectRatio
-  public var icon: BanubaUtilities.ImageConfigurationProtocol?
-  public var text: BanubaUtilities.TextConfiguration
-  public var isSelected: Swift.Bool
-  public var width: CoreGraphics.CGFloat
-  public var height: CoreGraphics.CGFloat
-  public var selectedColor: UIKit.UIColor
-  public init(aspectRatio: BanubaUtilities.AspectRatio, icon: BanubaUtilities.ImageConfigurationProtocol?, text: BanubaUtilities.TextConfiguration, width: CoreGraphics.CGFloat, height: CoreGraphics.CGFloat, selectedColor: UIKit.UIColor)
-  @objc deinit
 }
 public class TrimMusicFitter {
   final public let editableAsset: VideoEditor.VideoEditorAsset
@@ -281,6 +270,7 @@ extension BanubaVideoEditorTrimSDK.TrimService {
     get
   }
   public func traksInfoDuration() -> [CoreMedia.CMTimeRange]
+  public func adjustCompositionDurationIfNeeded()
 }
 extension BanubaVideoEditorTrimSDK.TrimService {
   public func getExportRestrictions() -> BanubaVideoEditorTrimSDK.TrimServiceError?
