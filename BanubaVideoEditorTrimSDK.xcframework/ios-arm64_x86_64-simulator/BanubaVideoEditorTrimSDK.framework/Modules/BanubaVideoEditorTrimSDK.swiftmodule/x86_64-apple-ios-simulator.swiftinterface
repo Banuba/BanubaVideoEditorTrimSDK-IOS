@@ -192,6 +192,7 @@ public class SequencesService : BanubaVideoEditorTrimSDK.SequencesServicing {
   public func replaceSequenceWithId(_ sequenceId: Swift.String, withVideoSequence videoSequence: VideoEditor.VideoSequence)
   public func setupWithVideoSequence(_ videoSequence: VideoEditor.VideoSequence)
   public func setEditingStep(_ editingStep: BanubaUtilities.VideoSequenceEditingStep, forSequence videoSequence: VideoEditor.VideoSequence)
+  public func generateNameForSequence(isDraftSequence: Swift.Bool = false) -> Swift.String
   @objc deinit
 }
 public struct SplitVideoTimeValidator {
@@ -231,6 +232,8 @@ public typealias OriginalSplittedTracks = (VideoEditor.VideoEditorAssetTrackInfo
 public class TrimService {
   final public let sdk: BanubaVideoEditorTrimSDK.TrimSDKServicing
   final public let videoSequence: VideoEditor.VideoSequence
+  public var initialVideoAsset: VideoEditor.VideoEditorAsset?
+  public var initialDraftTrimedMetadata: BanubaUtilities.VideoEditorTrimMetadata?
   final public let videoResolution: BanubaUtilities.VideoResolutionConfiguration
   final public let editableAsset: VideoEditor.VideoEditorAsset
   final public let timeBehaviour: BanubaVideoEditorTrimSDK.ImportVideoTimeBehaviour
