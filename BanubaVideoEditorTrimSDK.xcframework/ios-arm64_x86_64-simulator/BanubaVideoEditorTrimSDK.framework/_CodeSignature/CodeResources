@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		qHGNAEyJG69HtTXBKzZI4ufUkrk=
+		GOu3d2aQFkzIZlxcpWbV5qW8QfA=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		MbfOkBEDjH3709gGgJ/qwrigqFs=
+		7Xg0fRG7TzT7ZVVtX8aNQL1jcyI=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		02mFagozOcuXeXJcvlIlAVhLqC4=
+		i4muWV85DzbsfLCraT7e5TG7CmQ=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		q6Ib6R9Ni9MkTPhjxXwl25wk7Rs=
+		CTRlDFLc8fTLFyV+0uKpA2cAMt8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,14 +73,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EDc9g5mLL8rfpLmOpQo24BiCXtPGrCeoAdHhhAvHz4I=
+			eTzzZxvopJfFy/df3lDamjU/HZ+AKsvckrq1Z9PPcZI=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TvYLUYK6SKRztkTYK+3+h1gAc4doEOfOH05XMFQ70HE=
+			ONInX7jKHhZh1R+oXClE3SpvfEGDysMyUyojmHR3C4U=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/LtL3tHUQoR+pxMJwJY9sFKTFjs59dg0xxKtzM4t7g=
+			ynsuV/Yp4DeS2QlAzTBP1qV+71Ud2LNSyJ/Ky7NHs8E=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BSYnK9zLhTYXs3lNHpR0WZVz4M4xj86kZFJnoNoABCs=
+			pY5pkijfcdUNHuuy3RocxiZKc30Sv11oRe5NaiPodNs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
