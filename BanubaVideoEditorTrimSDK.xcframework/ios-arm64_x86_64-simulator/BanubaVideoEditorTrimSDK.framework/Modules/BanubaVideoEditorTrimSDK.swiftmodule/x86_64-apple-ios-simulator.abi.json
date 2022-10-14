@@ -116,25 +116,6 @@
                 "accessorKind": "_modify"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VideoDurationDefaults",
-                "printedName": "BanubaVideoEditorTrimSDK.VideoDurationDefaults",
-                "usr": "s:24BanubaVideoEditorTrimSDK0B16DurationDefaultsV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:24BanubaVideoEditorTrimSDK0B16DurationDefaultsVACycfc",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0B16DurationDefaultsVACycfc",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -198,25 +179,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VideoImportDefaults",
-                "printedName": "BanubaVideoEditorTrimSDK.VideoImportDefaults",
-                "usr": "s:24BanubaVideoEditorTrimSDK0B14ImportDefaultsV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:24BanubaVideoEditorTrimSDK0B14ImportDefaultsVACycfc",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0B14ImportDefaultsVACycfc",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -377,25 +339,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VideoAspectRatio",
-                "printedName": "BanubaVideoEditorTrimSDK.VideoAspectRatio",
-                "usr": "s:24BanubaVideoEditorTrimSDK0B11AspectRatioV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:24BanubaVideoEditorTrimSDK0B11AspectRatioVACycfc",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0B11AspectRatioVACycfc",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -986,45 +929,6 @@
             "init_kind": "Designated"
           },
           {
-            "kind": "Var",
-            "name": "default",
-            "printedName": "default",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VideoEditorDurationConfig",
-                "printedName": "BanubaVideoEditorTrimSDK.VideoEditorDurationConfig",
-                "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV7defaultACvpZ",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV7defaultACvpZ",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "static": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VideoEditorDurationConfig",
-                    "printedName": "BanubaVideoEditorTrimSDK.VideoEditorDurationConfig",
-                    "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV7defaultACvgZ",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV7defaultACvgZ",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "static": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Function",
             "name": "isValidMaxDurationWithTolerance",
             "printedName": "isValidMaxDurationWithTolerance(_:)",
@@ -1238,7 +1142,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC11mediaTracksSay0A9Utilities10MediaTrackCGvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC11mediaTracksSay0A9Utilities10MediaTrackCGvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -1273,7 +1176,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC11mediaTracksSay0A9Utilities10MediaTrackCGvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -1282,125 +1184,6 @@
             "kind": "TypeDecl",
             "name": "AudioSequenceItem",
             "printedName": "AudioSequenceItem",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "start",
-                "printedName": "start",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CMTime",
-                    "printedName": "CoreMedia.CMTime",
-                    "usr": "c:@SA@CMTime"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV5startSo6CMTimeavp",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV5startSo6CMTimeavp",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CMTime",
-                        "printedName": "CoreMedia.CMTime",
-                        "usr": "c:@SA@CMTime"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV5startSo6CMTimeavg",
-                    "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV5startSo6CMTimeavg",
-                    "moduleName": "BanubaVideoEditorTrimSDK",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "duration",
-                "printedName": "duration",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CMTime",
-                    "printedName": "CoreMedia.CMTime",
-                    "usr": "c:@SA@CMTime"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV8durationSo6CMTimeavp",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV8durationSo6CMTimeavp",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CMTime",
-                        "printedName": "CoreMedia.CMTime",
-                        "usr": "c:@SA@CMTime"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV8durationSo6CMTimeavg",
-                    "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV8durationSo6CMTimeavg",
-                    "moduleName": "BanubaVideoEditorTrimSDK",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(start:duration:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AudioSequenceItem",
-                    "printedName": "BanubaVideoEditorTrimSDK.TrimMusicFitter.AudioSequenceItem",
-                    "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CMTime",
-                    "printedName": "CoreMedia.CMTime",
-                    "usr": "c:@SA@CMTime"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CMTime",
-                    "printedName": "CoreMedia.CMTime",
-                    "usr": "c:@SA@CMTime"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV5start8durationAESo6CMTimea_AItcfc",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV5start8durationAESo6CMTimea_AItcfc",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "implicit": true,
-                "init_kind": "Designated"
-              }
-            ],
             "declKind": "Struct",
             "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC17AudioSequenceItemV",
@@ -1475,7 +1258,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC06reloadF0yyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC06reloadF0yyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1504,7 +1286,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC09duplicateF3URLy10Foundation0I0VAGF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC09duplicateF3URLy10Foundation0I0VAGF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1550,7 +1331,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC05applyF012forTrackInfo21withTimeRangeInGlobal04trimmN07inAssety0bC00bcsjK0C_So06CMTimeN0aAmI0bcS0CtF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC05applyF012forTrackInfo21withTimeRangeInGlobal04trimmN07inAssety0bC00bcsjK0C_So06CMTimeN0aAmI0bcS0CtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1562,7 +1342,6 @@
         "usr": "s:24BanubaVideoEditorTrimSDK0D11MusicFitterC",
         "mangledName": "$s24BanubaVideoEditorTrimSDK0D11MusicFitterC",
         "moduleName": "BanubaVideoEditorTrimSDK",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -1591,317 +1370,6 @@
         "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "BanubaVideoEditorTrimSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "TrimSequenceItem",
-        "printedName": "TrimSequenceItem",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "trimTimeRange",
-            "printedName": "trimTimeRange",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CMTimeRange",
-                "printedName": "CoreMedia.CMTimeRange",
-                "usr": "c:@SA@CMTimeRange"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24BanubaVideoEditorTrimSDK0D12SequenceItemC13trimTimeRangeSo06CMTimeJ0avp",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0D12SequenceItemC13trimTimeRangeSo06CMTimeJ0avp",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CMTimeRange",
-                    "printedName": "CoreMedia.CMTimeRange",
-                    "usr": "c:@SA@CMTimeRange"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24BanubaVideoEditorTrimSDK0D12SequenceItemC13trimTimeRangeSo06CMTimeJ0avg",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK0D12SequenceItemC13trimTimeRangeSo06CMTimeJ0avg",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "url",
-            "printedName": "url",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24BanubaVideoEditorTrimSDK0D12SequenceItemC3url10Foundation3URLVvp",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0D12SequenceItemC3url10Foundation3URLVvp",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24BanubaVideoEditorTrimSDK0D12SequenceItemC3url10Foundation3URLVvg",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK0D12SequenceItemC3url10Foundation3URLVvg",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(trackInfo:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TrimSequenceItem",
-                "printedName": "BanubaVideoEditorTrimSDK.TrimSequenceItem",
-                "usr": "s:24BanubaVideoEditorTrimSDK0D12SequenceItemC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "VideoEditorAssetTrackInfo",
-                "printedName": "VideoEditor.VideoEditorAssetTrackInfo",
-                "usr": "s:11VideoEditor0aB14AssetTrackInfoC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:24BanubaVideoEditorTrimSDK0D12SequenceItemC9trackInfoAC0bC00bc10AssetTrackI0C_tcfc",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0D12SequenceItemC9trackInfoAC0bC00bc10AssetTrackI0C_tcfc",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:24BanubaVideoEditorTrimSDK0D12SequenceItemC",
-        "mangledName": "$s24BanubaVideoEditorTrimSDK0D12SequenceItemC",
-        "moduleName": "BanubaVideoEditorTrimSDK",
-        "isOpen": true,
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "TrimSequenceComparator",
-        "printedName": "TrimSequenceComparator",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "videoEditorAsset",
-            "printedName": "videoEditorAsset",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VideoEditorAsset",
-                "printedName": "VideoEditor.VideoEditorAsset",
-                "usr": "s:11VideoEditor0aB5AssetC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24BanubaVideoEditorTrimSDK0D18SequenceComparatorC05videoC5Asset0bC00bcI0Cvp",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0D18SequenceComparatorC05videoC5Asset0bC00bcI0Cvp",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VideoEditorAsset",
-                    "printedName": "VideoEditor.VideoEditorAsset",
-                    "usr": "s:11VideoEditor0aB5AssetC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24BanubaVideoEditorTrimSDK0D18SequenceComparatorC05videoC5Asset0bC00bcI0Cvg",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK0D18SequenceComparatorC05videoC5Asset0bC00bcI0Cvg",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "originalSequence",
-            "printedName": "originalSequence",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[BanubaVideoEditorTrimSDK.TrimSequenceItem]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TrimSequenceItem",
-                    "printedName": "BanubaVideoEditorTrimSDK.TrimSequenceItem",
-                    "usr": "s:24BanubaVideoEditorTrimSDK0D12SequenceItemC"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24BanubaVideoEditorTrimSDK0D18SequenceComparatorC08originalF033_FFB2198281C5367E8CA6CCB611943CB9LLSayAA0dF4ItemCGvp",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0D18SequenceComparatorC08originalF033_FFB2198281C5367E8CA6CCB611943CB9LLSayAA0dF4ItemCGvp",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 1,
-            "hasStorage": true
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(videoEditorAsset:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TrimSequenceComparator",
-                "printedName": "BanubaVideoEditorTrimSDK.TrimSequenceComparator",
-                "usr": "s:24BanubaVideoEditorTrimSDK0D18SequenceComparatorC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "VideoEditorAsset",
-                "printedName": "VideoEditor.VideoEditorAsset",
-                "usr": "s:11VideoEditor0aB5AssetC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:24BanubaVideoEditorTrimSDK0D18SequenceComparatorC05videoC5AssetAC0bC00bcI0C_tcfc",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0D18SequenceComparatorC05videoC5AssetAC0bC00bcI0C_tcfc",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "wasChanged",
-            "printedName": "wasChanged()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24BanubaVideoEditorTrimSDK0D18SequenceComparatorC10wasChangedSbyF",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0D18SequenceComparatorC10wasChangedSbyF",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "wasReordered",
-            "printedName": "wasReordered()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24BanubaVideoEditorTrimSDK0D18SequenceComparatorC12wasReorderedSbyF",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0D18SequenceComparatorC12wasReorderedSbyF",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:24BanubaVideoEditorTrimSDK0D18SequenceComparatorC",
-        "mangledName": "$s24BanubaVideoEditorTrimSDK0D18SequenceComparatorC",
-        "moduleName": "BanubaVideoEditorTrimSDK",
-        "isOpen": true,
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -1954,32 +1422,12 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VideoEditorTrackRotationCalculator",
-                "printedName": "BanubaVideoEditorTrimSDK.VideoEditorTrackRotationCalculator",
-                "usr": "s:24BanubaVideoEditorTrimSDK0bC23TrackRotationCalculatorC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:24BanubaVideoEditorTrimSDK0bC23TrackRotationCalculatorCACycfc",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0bC23TrackRotationCalculatorCACycfc",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
         "usr": "s:24BanubaVideoEditorTrimSDK0bC23TrackRotationCalculatorC",
         "mangledName": "$s24BanubaVideoEditorTrimSDK0bC23TrackRotationCalculatorC",
         "moduleName": "BanubaVideoEditorTrimSDK",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -3144,7 +2592,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC8delegateAA0bfG8Delegate_pSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC8delegateAA0bfG8Delegate_pSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3180,7 +2627,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC8delegateAA0bfG8Delegate_pSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -3213,7 +2659,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC8delegateAA0bfG8Delegate_pSgvs",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -3232,7 +2677,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC8delegateAA0bfG8Delegate_pSgvM",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -3261,7 +2705,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC13videoSequence0bC00bI0CSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC13videoSequence0bC00bI0CSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3296,7 +2739,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC13videoSequence0bC00bI0CSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -3325,7 +2767,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videoF00A9Utilities0bF0VSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videoF00A9Utilities0bF0VSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3360,7 +2801,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videoF00A9Utilities0bF0VSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -3389,7 +2829,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videocF00A9Utilities0bcF0VSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videocF00A9Utilities0bcF0VSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3424,7 +2863,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videocF00A9Utilities0bcF0VSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -3453,7 +2891,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videocdF00A9Utilities0bcdF0VSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videocdF00A9Utilities0bcdF0VSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3488,7 +2925,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videocdF00A9Utilities0bcdF0VSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -3525,7 +2961,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC11audioTracksSay0A9Utilities19AudioTrackAdoptable_pGSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC11audioTracksSay0A9Utilities19AudioTrackAdoptable_pGSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3568,7 +3003,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC11audioTracksSay0A9Utilities19AudioTrackAdoptable_pGSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -3597,7 +3031,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC010videoCoverF00A9Utilities0biF0VSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC010videoCoverF00A9Utilities0biF0VSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3632,7 +3065,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC010videoCoverF00A9Utilities0biF0VSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -3661,7 +3093,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC05musiccF00A9Utilities05MusiccF0VSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC05musiccF00A9Utilities05MusiccF0VSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3696,7 +3127,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC05musiccF00A9Utilities05MusiccF0VSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -3725,7 +3155,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC013cameraSessionF00A9Utilities06CameraiF0VSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC013cameraSessionF00A9Utilities06CameraiF0VSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3760,7 +3189,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC013cameraSessionF00A9Utilities06CameraiF0VSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -3865,7 +3293,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadata12trackVolumes11videoVolumeySay0A9Utilities19AudioTrackAdoptable_pG_SDys5Int32VSfGSftF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadata12trackVolumes11videoVolumeySay0A9Utilities19AudioTrackAdoptable_pG_SDys5Int32VSfGSftF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -3893,7 +3320,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadatay0A9Utilities013CameraSessionF0V_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadatay0A9Utilities013CameraSessionF0V_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -3921,7 +3347,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadatay0A9Utilities0bcdF0V_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadatay0A9Utilities0bcdF0V_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -3949,7 +3374,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadatay0A9Utilities0bF0V_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadatay0A9Utilities0bF0V_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -3977,7 +3401,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadatay0A9Utilities0bcF0V_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadatay0A9Utilities0bcF0V_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4005,7 +3428,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadatay0A9Utilities0b5CoverF0V_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadatay0A9Utilities0b5CoverF0V_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4027,7 +3449,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC5resetyyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC5resetyyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4055,7 +3476,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC20setupCurrentSequenceyy0bC00bJ0CF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC20setupCurrentSequenceyy0bC00bJ0CF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4100,7 +3520,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videoF003forB8Sequence0A9Utilities0bF0VSg0bC00bJ0CSg_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videoF003forB8Sequence0A9Utilities0bF0VSg0bC00bJ0CSg_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4145,7 +3564,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC010videoCoverF003forB8Sequence0A9Utilities0biF0VSg0bC00bK0CSg_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC010videoCoverF003forB8Sequence0A9Utilities0biF0VSg0bC00bK0CSg_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4179,7 +3597,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC07replaceF002ofB8Sequence04withbJ0y0bC00bJ0C_AItF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC07replaceF002ofB8Sequence04withbJ0y0bC00bJ0C_AItF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4213,7 +3630,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC09duplicateF002ofB8Sequence02tobJ0y0bC00bJ0C_AItF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC09duplicateF002ofB8Sequence02tobJ0y0bC00bJ0C_AItF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4225,7 +3641,6 @@
         "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC",
         "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC",
         "moduleName": "BanubaVideoEditorTrimSDK",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl"
         ],
@@ -4834,7 +4249,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC014calculateFirstdG6Ranges3forySay0bC00bC14AssetTrackInfoCG_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC014calculateFirstdG6Ranges3forySay0bC00bC14AssetTrackInfoCG_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4870,7 +4284,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC05aligndG6Ranges3forySay0bC00bC14AssetTrackInfoCG_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC05aligndG6Ranges3forySay0bC00bC14AssetTrackInfoCG_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4913,7 +4326,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC010getMaximumD8Duration3for8allPartsSo6CMTimea0bC00bC14AssetTrackInfoC_SayAKGtF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC010getMaximumD8Duration3for8allPartsSo6CMTimea0bC00bC14AssetTrackInfoC_SayAKGtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4956,7 +4368,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC10canBeAdded04partG02toSbSo6CMTimea_SayAHGtF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC10canBeAdded04partG02toSbSo6CMTimea_SayAHGtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4993,7 +4404,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC21isTotalDurationEnough5partsAA0G6ResultOSay0bC00bC14AssetTrackInfoCG_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC21isTotalDurationEnough5partsAA0G6ResultOSay0bC00bC14AssetTrackInfoCG_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -5005,7 +4415,6 @@
         "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC",
         "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC",
         "moduleName": "BanubaVideoEditorTrimSDK",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -5728,7 +5137,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC15currentSequence0bC00bI0CSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC15currentSequence0bC00bI0CSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -5758,7 +5166,6 @@
                 "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC15currentSequence0bC00bI0CSgvg",
                 "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC15currentSequence0bC00bI0CSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -5787,7 +5194,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC20lastModifiedSequence0bC00bJ0CSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC20lastModifiedSequence0bC00bJ0CSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -5822,7 +5228,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC20lastModifiedSequence0bC00bJ0CSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -5851,7 +5256,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC9sequencesSay0bC00B8SequenceCGvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC9sequencesSay0bC00B8SequenceCGvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -5881,7 +5285,6 @@
                 "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC9sequencesSay0bC00B8SequenceCGvg",
                 "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC9sequencesSay0bC00B8SequenceCGvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -5910,7 +5313,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC07draftedF0Say0bC00B8SequenceCGvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC07draftedF0Say0bC00B8SequenceCGvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -5940,7 +5342,6 @@
                 "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC07draftedF0Say0bC00B8SequenceCGvg",
                 "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC07draftedF0Say0bC00B8SequenceCGvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -6125,7 +5526,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC17createNewSequence14withMusicTrack11isSlideShow11editingStep0bC00bJ0C0A9Utilities05MediaM0CSg_SbAK0bj7EditingR0OtF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC17createNewSequence14withMusicTrack11isSlideShow11editingStep0bC00bJ0C0A9Utilities05MediaM0CSg_SbAK0bj7EditingR0OtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -6147,7 +5547,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC30cancelAndRemoveCurrentSequenceyyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC30cancelAndRemoveCurrentSequenceyyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -6176,7 +5575,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC14removeSequenceySb0bC00bI0CF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC14removeSequenceySb0bC00bI0CF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -6224,7 +5622,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC17duplicateSequence_12withSameName0bC00bI0C_0A9Utilities0B8MetadataVtAH_SbtF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC17duplicateSequence_12withSameName0bC00bI0C_0A9Utilities0B8MetadataVtAH_SbtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -6258,7 +5655,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC21replaceSequenceWithId_04withbI0ySS_0bC00bI0CtF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC21replaceSequenceWithId_04withbI0ySS_0bC00bI0CtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -6286,7 +5682,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC09setupWithB8Sequenceyy0bC00bJ0CF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC09setupWithB8Sequenceyy0bC00bJ0CF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -6320,7 +5715,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC14setEditingStep_11forSequencey0A9Utilities0bliJ0O_0bC00bL0CtF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC14setEditingStep_11forSequencey0A9Utilities0bliJ0O_0bC00bL0CtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -6350,7 +5744,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC23generateNameForSequence07isDraftK0SSSb_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC23generateNameForSequence07isDraftK0SSSb_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -6361,7 +5754,6 @@
         "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC",
         "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC",
         "moduleName": "BanubaVideoEditorTrimSDK",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl"
         ],
@@ -6677,7 +6069,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK14AspectsServiceC15videoResolution0A9Utilities0bI0Ovp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC15videoResolution0A9Utilities0bI0Ovp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasStorage",
               "AccessControl",
@@ -6702,7 +6093,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC15videoResolution0A9Utilities0bI0Ovg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -6727,7 +6117,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC15videoResolution0A9Utilities0bI0Ovs",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -6746,7 +6135,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC15videoResolution0A9Utilities0bI0OvM",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -6794,7 +6182,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK14AspectsServiceC09setupWithB10Resolutionyy0A9Utilities0bJ0OF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC09setupWithB10Resolutionyy0A9Utilities0bJ0OF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -6829,7 +6216,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK14AspectsServiceC011getAspectedB4Size03forbC5Asset15withAspectRatioSo6CGSizeV0bC00bcL0C_0A9Utilities0nO0OtF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC011getAspectedB4Size03forbC5Asset15withAspectRatioSo6CGSizeV0bC00bcL0C_0A9Utilities0nO0OtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -6864,7 +6250,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK14AspectsServiceC14getAspectRatio03forbC5Asset04withiJ0Sd0bC00bcL0C_0A9Utilities0iJ0OtF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC14getAspectRatio03forbC5Asset04withiJ0Sd0bC00bcL0C_0A9Utilities0iJ0OtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -6876,7 +6261,6 @@
         "usr": "s:24BanubaVideoEditorTrimSDK14AspectsServiceC",
         "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC",
         "moduleName": "BanubaVideoEditorTrimSDK",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -7551,7 +6935,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC07initialB5Asset0bC00bcH0CSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC07initialB5Asset0bC00bcH0CSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -7585,7 +6968,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC07initialB5Asset0bC00bcH0CSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -7618,7 +7000,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC07initialB5Asset0bC00bcH0CSgvs",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -7637,7 +7018,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC07initialB5Asset0bC00bcH0CSgvM",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -7666,7 +7046,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC26initialDraftTrimedMetadata0A9Utilities0bcdJ0VSgvp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC26initialDraftTrimedMetadata0A9Utilities0bcdJ0VSgvp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -7699,7 +7078,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC26initialDraftTrimedMetadata0A9Utilities0bcdJ0VSgvg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -7732,7 +7110,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC26initialDraftTrimedMetadata0A9Utilities0bcdJ0VSgvs",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -7751,7 +7128,6 @@
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC26initialDraftTrimedMetadata0A9Utilities0bcdJ0VSgvM",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -7919,7 +7295,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC15addedPartsCountSivp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC15addedPartsCountSivp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -7941,7 +7316,6 @@
                 "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC15addedPartsCountSivg",
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC15addedPartsCountSivg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -8056,7 +7430,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC17saveMusicMetadatayyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC17saveMusicMetadatayyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8078,7 +7451,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC10discardAllyyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC10discardAllyyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8100,7 +7472,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC07restoreD8MetadatayyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC07restoreD8MetadatayyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8122,7 +7493,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC11exportMusicyyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC11exportMusicyyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8150,7 +7520,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC12adjustPlayer11aspectRatioy0A9Utilities06AspectJ0O_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC12adjustPlayer11aspectRatioy0A9Utilities06AspectJ0O_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8190,7 +7559,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC30adjustPlayerForSignleTrackInfo_11aspectRatio13trimTimeRangey0bC00bc5AssetkL0C_0A9Utilities06AspectN0OSo06CMTimeQ0atF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC30adjustPlayerForSignleTrackInfo_11aspectRatio13trimTimeRangey0bC00bc5AssetkL0C_0A9Utilities06AspectN0OSo06CMTimeQ0atF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8221,7 +7589,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC6tracksSay0bC00bC14AssetTrackInfoCGyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC6tracksSay0bC00bC14AssetTrackInfoCGyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8263,7 +7630,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC9addTracks_7atIndexySay0bC00bC14AssetTrackInfoCG_SitF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC9addTracks_7atIndexySay0bC00bC14AssetTrackInfoCG_SitF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8291,7 +7657,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC11removeTrackyy0bC00bc5AssetH4InfoCF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC11removeTrackyy0bC00bc5AssetH4InfoCF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8319,7 +7684,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC11removeTrack2atySi_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC11removeTrack2atySi_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8353,7 +7717,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC9moveTrack9fromIndex02toJ0ySi_SitF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC9moveTrack9fromIndex02toJ0ySi_SitF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8390,7 +7753,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC5track2at0bC00bC14AssetTrackInfoCSgSi_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC5track2at0bC00bC14AssetTrackInfoCSgSi_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8427,7 +7789,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC5index2ofSiSg0bC00bC14AssetTrackInfoC_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC5index2ofSiSg0bC00bC14AssetTrackInfoC_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8483,7 +7844,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC10splitTrack_6atTime0bC00bc5AssetH4InfoC_AHtSgAH_So6CMTimeatF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC10splitTrack_6atTime0bC00bc5AssetH4InfoC_AHtSgAH_So6CMTimeatF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8505,7 +7865,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC17reloadCompositionyyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC17reloadCompositionyyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8542,7 +7901,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC12getPartIndex2atSiSgSo6CMTimea_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC12getPartIndex2atSiSgSo6CMTimea_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8565,7 +7923,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC15videoWasCroppedSbyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC15videoWasCroppedSbyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8588,7 +7945,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC17videoWasReorderedSbyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC17videoWasReorderedSbyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8611,7 +7967,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC19compositionDurationSo6CMTimeavp",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC19compositionDurationSo6CMTimeavp",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8633,7 +7988,6 @@
                 "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC19compositionDurationSo6CMTimeavg",
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC19compositionDurationSo6CMTimeavg",
                 "moduleName": "BanubaVideoEditorTrimSDK",
-                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -8663,7 +8017,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC17traksInfoDurationSaySo11CMTimeRangeaGyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC17traksInfoDurationSaySo11CMTimeRangeaGyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8685,7 +8038,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC33adjustCompositionDurationIfNeededyyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC33adjustCompositionDurationIfNeededyyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -8713,7 +8065,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC21getExportRestrictionsAA0dF5ErrorOSgyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC21getExportRestrictionsAA0dF5ErrorOSgyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8741,7 +8092,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC26didChangeTrackInfoRotationyy0bC00bc5AssetiJ0CF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC26didChangeTrackInfoRotationyy0bC00bc5AssetiJ0CF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8764,7 +8114,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC010getMinimumD8DurationSo6CMTimeayF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC010getMinimumD8DurationSo6CMTimeayF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8793,7 +8142,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC010getMaximumD8Duration3forSo6CMTimea0bC00bC14AssetTrackInfoC_tF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC010getMaximumD8Duration3forSo6CMTimea0bC00bC14AssetTrackInfoC_tF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8824,7 +8172,6 @@
             "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC14getAspectRatio0A9Utilities0hI0OSgyF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC14getAspectRatio0A9Utilities0hI0OSgyF",
             "moduleName": "BanubaVideoEditorTrimSDK",
-            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -8836,7 +8183,6 @@
         "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC",
         "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC",
         "moduleName": "BanubaVideoEditorTrimSDK",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -8847,126 +8193,126 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 684,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 695,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 761,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 773,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "FloatLiteral",
       "offset": 2081,
       "length": 5,
       "value": "0.035"
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimMusicFitter.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimMusicFitter.swift",
       "kind": "Array",
       "offset": 453,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimSequenceComparator.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimSequenceComparator.swift",
       "kind": "Array",
       "offset": 681,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 10,
       "value": "\"metadata\""
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 279,
       "length": 18,
       "value": "\"sequenceMetadata\""
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 23,
       "value": "\"cameraSessionMetadata\""
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 535,
       "length": 14,
       "value": "\"trimMetadata\""
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 21,
       "value": "\"MusicEditorMetadata\""
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 644,
       "length": 15,
       "value": "\"CoverMetadata\""
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/ImportVideoTimeBehaviour.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/ImportVideoTimeBehaviour.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 10,
       "value": "1000000000"
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
       "kind": "BooleanLiteral",
       "offset": 2531,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
       "kind": "BooleanLiteral",
       "offset": 9842,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
       "kind": "FloatLiteral",
       "offset": 259,
       "length": 6,
       "value": "1.0012"
     },
     {
-      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
+      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
       "kind": "IntegerLiteral",
       "offset": 316,
       "length": 1,
