@@ -204,15 +204,15 @@ public struct SplitVideoTimeValidator {
 }
 public protocol AspectsServicing {
   func setupWithVideoResolution(_ videoResolution: BanubaUtilities.VideoResolution)
-  func getAspectedVideoSize(forVideoEditorAsset videoEditorAsset: VideoEditor.VideoEditorAsset, withAspectRatio aspectRatio: BanubaUtilities.AspectRatio) -> CoreFoundation.CGSize
-  func getAspectRatio(forVideoEditorAsset asset: VideoEditor.VideoEditorAsset, withAspectRatio aspectRatio: BanubaUtilities.AspectRatio) -> Swift.Double
+  func getAspectedVideoSize(forAsset asset: AVFoundation.AVAsset, withAspectRatio aspectRatio: BanubaUtilities.AspectRatio) -> CoreFoundation.CGSize
+  func getAspectRatio(forAsset asset: AVFoundation.AVAsset, withAspectRatio aspectRatio: BanubaUtilities.AspectRatio) -> Swift.Double
 }
 public class AspectsService : BanubaVideoEditorTrimSDK.AspectsServicing {
   public var videoResolution: BanubaUtilities.VideoResolution
   public init()
   public func setupWithVideoResolution(_ videoResolution: BanubaUtilities.VideoResolution)
-  public func getAspectedVideoSize(forVideoEditorAsset asset: VideoEditor.VideoEditorAsset, withAspectRatio aspectRatio: BanubaUtilities.AspectRatio) -> CoreFoundation.CGSize
-  public func getAspectRatio(forVideoEditorAsset asset: VideoEditor.VideoEditorAsset, withAspectRatio aspectRatio: BanubaUtilities.AspectRatio) -> Swift.Double
+  public func getAspectedVideoSize(forAsset asset: AVFoundation.AVAsset, withAspectRatio aspectRatio: BanubaUtilities.AspectRatio) -> CoreFoundation.CGSize
+  public func getAspectRatio(forAsset asset: AVFoundation.AVAsset, withAspectRatio aspectRatio: BanubaUtilities.AspectRatio) -> Swift.Double
   @objc deinit
 }
 public protocol TrimSDKServicing : VEEffectsSDK.TransformEffectsSDKServicing, VideoEditor.VideoEditorSDKServicing {

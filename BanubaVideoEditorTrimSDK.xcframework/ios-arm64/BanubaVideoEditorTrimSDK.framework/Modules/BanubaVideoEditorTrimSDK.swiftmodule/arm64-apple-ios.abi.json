@@ -5930,6 +5930,13 @@
         "moduleName": "BanubaVideoEditorTrimSDK"
       },
       {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BanubaVideoEditorTrimSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AspectsServicing",
         "printedName": "AspectsServicing",
@@ -5967,7 +5974,7 @@
           {
             "kind": "Function",
             "name": "getAspectedVideoSize",
-            "printedName": "getAspectedVideoSize(forVideoEditorAsset:withAspectRatio:)",
+            "printedName": "getAspectedVideoSize(forAsset:withAspectRatio:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5977,9 +5984,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VideoEditorAsset",
-                "printedName": "VideoEditor.VideoEditorAsset",
-                "usr": "s:11VideoEditor0aB5AssetC"
+                "name": "AVAsset",
+                "printedName": "AVFoundation.AVAsset",
+                "usr": "c:objc(cs)AVAsset"
               },
               {
                 "kind": "TypeNominal",
@@ -5989,8 +5996,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:24BanubaVideoEditorTrimSDK16AspectsServicingP011getAspectedB4Size03forbC5Asset15withAspectRatioSo6CGSizeV0bC00bcL0C_0A9Utilities0nO0OtF",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK16AspectsServicingP011getAspectedB4Size03forbC5Asset15withAspectRatioSo6CGSizeV0bC00bcL0C_0A9Utilities0nO0OtF",
+            "usr": "s:24BanubaVideoEditorTrimSDK16AspectsServicingP011getAspectedB4Size8forAsset15withAspectRatioSo6CGSizeVSo7AVAssetC_0A9Utilities0nO0OtF",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK16AspectsServicingP011getAspectedB4Size8forAsset15withAspectRatioSo6CGSizeVSo7AVAssetC_0A9Utilities0nO0OtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : BanubaVideoEditorTrimSDK.AspectsServicing>",
             "sugared_genericSig": "<Self where Self : BanubaVideoEditorTrimSDK.AspectsServicing>",
@@ -6004,7 +6011,7 @@
           {
             "kind": "Function",
             "name": "getAspectRatio",
-            "printedName": "getAspectRatio(forVideoEditorAsset:withAspectRatio:)",
+            "printedName": "getAspectRatio(forAsset:withAspectRatio:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6014,9 +6021,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VideoEditorAsset",
-                "printedName": "VideoEditor.VideoEditorAsset",
-                "usr": "s:11VideoEditor0aB5AssetC"
+                "name": "AVAsset",
+                "printedName": "AVFoundation.AVAsset",
+                "usr": "c:objc(cs)AVAsset"
               },
               {
                 "kind": "TypeNominal",
@@ -6026,8 +6033,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:24BanubaVideoEditorTrimSDK16AspectsServicingP14getAspectRatio03forbC5Asset04withiJ0Sd0bC00bcL0C_0A9Utilities0iJ0OtF",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK16AspectsServicingP14getAspectRatio03forbC5Asset04withiJ0Sd0bC00bcL0C_0A9Utilities0iJ0OtF",
+            "usr": "s:24BanubaVideoEditorTrimSDK16AspectsServicingP14getAspectRatio8forAsset04withiJ0SdSo7AVAssetC_0A9Utilities0iJ0OtF",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK16AspectsServicingP14getAspectRatio8forAsset04withiJ0SdSo7AVAssetC_0A9Utilities0iJ0OtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : BanubaVideoEditorTrimSDK.AspectsServicing>",
             "sugared_genericSig": "<Self where Self : BanubaVideoEditorTrimSDK.AspectsServicing>",
@@ -6191,7 +6198,7 @@
           {
             "kind": "Function",
             "name": "getAspectedVideoSize",
-            "printedName": "getAspectedVideoSize(forVideoEditorAsset:withAspectRatio:)",
+            "printedName": "getAspectedVideoSize(forAsset:withAspectRatio:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6201,9 +6208,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VideoEditorAsset",
-                "printedName": "VideoEditor.VideoEditorAsset",
-                "usr": "s:11VideoEditor0aB5AssetC"
+                "name": "AVAsset",
+                "printedName": "AVFoundation.AVAsset",
+                "usr": "c:objc(cs)AVAsset"
               },
               {
                 "kind": "TypeNominal",
@@ -6213,8 +6220,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:24BanubaVideoEditorTrimSDK14AspectsServiceC011getAspectedB4Size03forbC5Asset15withAspectRatioSo6CGSizeV0bC00bcL0C_0A9Utilities0nO0OtF",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC011getAspectedB4Size03forbC5Asset15withAspectRatioSo6CGSizeV0bC00bcL0C_0A9Utilities0nO0OtF",
+            "usr": "s:24BanubaVideoEditorTrimSDK14AspectsServiceC011getAspectedB4Size8forAsset15withAspectRatioSo6CGSizeVSo7AVAssetC_0A9Utilities0nO0OtF",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC011getAspectedB4Size8forAsset15withAspectRatioSo6CGSizeVSo7AVAssetC_0A9Utilities0nO0OtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "declAttributes": [
               "AccessControl",
@@ -6225,7 +6232,7 @@
           {
             "kind": "Function",
             "name": "getAspectRatio",
-            "printedName": "getAspectRatio(forVideoEditorAsset:withAspectRatio:)",
+            "printedName": "getAspectRatio(forAsset:withAspectRatio:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6235,9 +6242,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VideoEditorAsset",
-                "printedName": "VideoEditor.VideoEditorAsset",
-                "usr": "s:11VideoEditor0aB5AssetC"
+                "name": "AVAsset",
+                "printedName": "AVFoundation.AVAsset",
+                "usr": "c:objc(cs)AVAsset"
               },
               {
                 "kind": "TypeNominal",
@@ -6247,8 +6254,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:24BanubaVideoEditorTrimSDK14AspectsServiceC14getAspectRatio03forbC5Asset04withiJ0Sd0bC00bcL0C_0A9Utilities0iJ0OtF",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC14getAspectRatio03forbC5Asset04withiJ0Sd0bC00bcL0C_0A9Utilities0iJ0OtF",
+            "usr": "s:24BanubaVideoEditorTrimSDK14AspectsServiceC14getAspectRatio8forAsset04withiJ0SdSo7AVAssetC_0A9Utilities0iJ0OtF",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK14AspectsServiceC14getAspectRatio8forAsset04withiJ0SdSo7AVAssetC_0A9Utilities0iJ0OtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "declAttributes": [
               "AccessControl",
@@ -8193,126 +8200,126 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 684,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 695,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 761,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 773,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "FloatLiteral",
       "offset": 2081,
       "length": 5,
       "value": "0.035"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimMusicFitter.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimMusicFitter.swift",
       "kind": "Array",
       "offset": 453,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimSequenceComparator.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimSequenceComparator.swift",
       "kind": "Array",
       "offset": 681,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 10,
       "value": "\"metadata\""
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 279,
       "length": 18,
       "value": "\"sequenceMetadata\""
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 23,
       "value": "\"cameraSessionMetadata\""
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 535,
       "length": 14,
       "value": "\"trimMetadata\""
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 21,
       "value": "\"MusicEditorMetadata\""
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 644,
       "length": 15,
       "value": "\"CoverMetadata\""
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/ImportVideoTimeBehaviour.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/ImportVideoTimeBehaviour.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 10,
       "value": "1000000000"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
       "kind": "BooleanLiteral",
       "offset": 2531,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
       "kind": "BooleanLiteral",
-      "offset": 9842,
+      "offset": 9871,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
       "kind": "FloatLiteral",
       "offset": 259,
       "length": 6,
       "value": "1.0012"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
       "kind": "IntegerLiteral",
       "offset": 316,
       "length": 1,
