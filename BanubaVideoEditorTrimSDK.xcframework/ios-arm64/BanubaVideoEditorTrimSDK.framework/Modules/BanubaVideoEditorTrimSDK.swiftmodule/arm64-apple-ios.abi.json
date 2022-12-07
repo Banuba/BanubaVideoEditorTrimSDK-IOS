@@ -23,175 +23,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "VideoDurationDefaults",
-        "printedName": "VideoDurationDefaults",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VideoEditorDurationConfig",
-                "printedName": "BanubaVideoEditorTrimSDK.VideoEditorDurationConfig",
-                "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24BanubaVideoEditorTrimSDK0B16DurationDefaultsV6sharedAA0bcF6ConfigVvpZ",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0B16DurationDefaultsV6sharedAA0bcF6ConfigVvpZ",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VideoEditorDurationConfig",
-                    "printedName": "BanubaVideoEditorTrimSDK.VideoEditorDurationConfig",
-                    "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24BanubaVideoEditorTrimSDK0B16DurationDefaultsV6sharedAA0bcF6ConfigVvgZ",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK0B16DurationDefaultsV6sharedAA0bcF6ConfigVvgZ",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VideoEditorDurationConfig",
-                    "printedName": "BanubaVideoEditorTrimSDK.VideoEditorDurationConfig",
-                    "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24BanubaVideoEditorTrimSDK0B16DurationDefaultsV6sharedAA0bcF6ConfigVvsZ",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK0B16DurationDefaultsV6sharedAA0bcF6ConfigVvsZ",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24BanubaVideoEditorTrimSDK0B16DurationDefaultsV6sharedAA0bcF6ConfigVvMZ",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK0B16DurationDefaultsV6sharedAA0bcF6ConfigVvMZ",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:24BanubaVideoEditorTrimSDK0B16DurationDefaultsV",
-        "mangledName": "$s24BanubaVideoEditorTrimSDK0B16DurationDefaultsV",
-        "moduleName": "BanubaVideoEditorTrimSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "VideoImportDefaults",
-        "printedName": "VideoImportDefaults",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "maximumNumberOfVideos",
-            "printedName": "maximumNumberOfVideos",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24BanubaVideoEditorTrimSDK0B14ImportDefaultsV21maximumNumberOfVideosSivpZ",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0B14ImportDefaultsV21maximumNumberOfVideosSivpZ",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24BanubaVideoEditorTrimSDK0B14ImportDefaultsV21maximumNumberOfVideosSivgZ",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK0B14ImportDefaultsV21maximumNumberOfVideosSivgZ",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:24BanubaVideoEditorTrimSDK0B14ImportDefaultsV",
-        "mangledName": "$s24BanubaVideoEditorTrimSDK0B14ImportDefaultsV",
-        "moduleName": "BanubaVideoEditorTrimSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "VideoAspectRatio",
         "printedName": "VideoAspectRatio",
         "children": [
@@ -435,6 +266,116 @@
                 "declKind": "Accessor",
                 "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV07maximumbF0SdvM",
                 "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV07maximumbF0SdvM",
+                "moduleName": "BanubaVideoEditorTrimSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoDurations",
+            "printedName": "videoDurations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV14videoDurationsSaySdGvp",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV14videoDurationsSaySdGvp",
+            "moduleName": "BanubaVideoEditorTrimSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Double]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV14videoDurationsSaySdGvg",
+                "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV14videoDurationsSaySdGvg",
+                "moduleName": "BanubaVideoEditorTrimSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Double]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV14videoDurationsSaySdGvs",
+                "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV14videoDurationsSaySdGvs",
+                "moduleName": "BanubaVideoEditorTrimSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV14videoDurationsSaySdGvM",
+                "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV14videoDurationsSaySdGvM",
                 "moduleName": "BanubaVideoEditorTrimSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -874,7 +815,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(maximumVideoDuration:minimumDurationFromCamera:minimumDurationFromGallery:minimumVideoDuration:minimumTrimmedPartDuration:slideshowDuration:)",
+            "printedName": "init(maximumVideoDuration:videoDurations:minimumDurationFromCamera:minimumDurationFromGallery:minimumVideoDuration:minimumTrimmedPartDuration:slideshowDuration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -887,6 +828,20 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -920,8 +875,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV07maximumbF007minimumF10FromCamera0ifJ7Gallery0ibF00i11TrimmedPartF009slideshowF0ACSd_S5dtcfc",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV07maximumbF007minimumF10FromCamera0ifJ7Gallery0ibF00i11TrimmedPartF009slideshowF0ACSd_S5dtcfc",
+            "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV07maximumbF014videoDurations07minimumF10FromCamera0kfL7Gallery0kbF00k11TrimmedPartF009slideshowF0ACSd_SaySdGS5dtcfc",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV07maximumbF014videoDurations07minimumF10FromCamera0kfL7Gallery0kbF00k11TrimmedPartF009slideshowF0ACSd_SaySdGS5dtcfc",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "declAttributes": [
               "AccessControl"
@@ -929,31 +884,46 @@
             "init_kind": "Designated"
           },
           {
-            "kind": "Function",
-            "name": "isValidMaxDurationWithTolerance",
-            "printedName": "isValidMaxDurationWithTolerance(_:)",
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "VideoEditorDurationConfig",
+                "printedName": "BanubaVideoEditorTrimSDK.VideoEditorDurationConfig",
+                "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV010isValidMaxF13WithToleranceySbSdF",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV010isValidMaxF13WithToleranceySbSdF",
+            "declKind": "Var",
+            "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV7defaultACvpZ",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV7defaultACvpZ",
             "moduleName": "BanubaVideoEditorTrimSDK",
+            "static": true,
             "declAttributes": [
               "AccessControl"
             ],
-            "funcSelfKind": "NonMutating"
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoEditorDurationConfig",
+                    "printedName": "BanubaVideoEditorTrimSDK.VideoEditorDurationConfig",
+                    "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV7defaultACvgZ",
+                "mangledName": "$s24BanubaVideoEditorTrimSDK0bC14DurationConfigV7defaultACvgZ",
+                "moduleName": "BanubaVideoEditorTrimSDK",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -2493,6 +2463,45 @@
           },
           {
             "kind": "Function",
+            "name": "videoEditorTrimMetadata",
+            "printedName": "videoEditorTrimMetadata(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BanubaUtilities.VideoEditorTrimMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoEditorTrimMetadata",
+                    "printedName": "BanubaUtilities.VideoEditorTrimMetadata",
+                    "usr": "s:15BanubaUtilities23VideoEditorTrimMetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoSequence",
+                "printedName": "VideoEditor.VideoSequence",
+                "usr": "c:@M@VideoEditor@objc(cs)VideoSequence"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStoringP05videocdF03for0A9Utilities0bcdF0VSg0bC00B8SequenceC_tF",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStoringP05videocdF03for0A9Utilities0bcdF0VSg0bC00B8SequenceC_tF",
+            "moduleName": "BanubaVideoEditorTrimSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : BanubaVideoEditorTrimSDK.VideoMetadataStoring>",
+            "sugared_genericSig": "<Self where Self : BanubaVideoEditorTrimSDK.VideoMetadataStoring>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "replaceMetadata",
             "printedName": "replaceMetadata(ofVideoSequence:withVideoSequence:)",
             "children": [
@@ -3528,6 +3537,42 @@
           },
           {
             "kind": "Function",
+            "name": "videoEditorTrimMetadata",
+            "printedName": "videoEditorTrimMetadata(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BanubaUtilities.VideoEditorTrimMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoEditorTrimMetadata",
+                    "printedName": "BanubaUtilities.VideoEditorTrimMetadata",
+                    "usr": "s:15BanubaUtilities23VideoEditorTrimMetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoSequence",
+                "printedName": "VideoEditor.VideoSequence",
+                "usr": "c:@M@VideoEditor@objc(cs)VideoSequence"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videocdF03for0A9Utilities0bcdF0VSg0bC00B8SequenceC_tF",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC05videocdF03for0A9Utilities0bcdF0VSg0bC00B8SequenceC_tF",
+            "moduleName": "BanubaVideoEditorTrimSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "videoCoverMetadata",
             "printedName": "videoCoverMetadata(forVideoSequence:)",
             "children": [
@@ -4071,107 +4116,9 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "maxPartTime",
-            "printedName": "maxPartTime",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CMTime",
-                "printedName": "CoreMedia.CMTime",
-                "usr": "c:@SA@CMTime"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC07maxPartG0So6CMTimeavp",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC07maxPartG0So6CMTimeavp",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CMTime",
-                    "printedName": "CoreMedia.CMTime",
-                    "usr": "c:@SA@CMTime"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC07maxPartG0So6CMTimeavg",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC07maxPartG0So6CMTimeavg",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "maxPartsCount",
-            "printedName": "maxPartsCount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC13maxPartsCountSivp",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC13maxPartsCountSivp",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC13maxPartsCountSivg",
-                "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC13maxPartsCountSivg",
-                "moduleName": "BanubaVideoEditorTrimSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(minTotalTime:maxTotalTime:minPartTime:maxPartTime:maxPartsCount:)",
+            "printedName": "init(minTotalTime:maxTotalTime:minPartTime:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4196,23 +4143,11 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC08minTotalG003maxjG00i4PartG00klG00K10PartsCountACSd_S3dSitcfc",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC08minTotalG003maxjG00i4PartG00klG00K10PartsCountACSd_S3dSitcfc",
+            "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC08minTotalG003maxjG00i4PartG0ACSd_S2dtcfc",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC08minTotalG003maxjG00i4PartG0ACSd_S2dtcfc",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "declAttributes": [
               "AccessControl",
@@ -4325,48 +4260,6 @@
             "declKind": "Func",
             "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC010getMaximumD8Duration3for8allPartsSo6CMTimea0bC00bC14AssetTrackInfoC_SayAKGtF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC010getMaximumD8Duration3for8allPartsSo6CMTimea0bC00bC14AssetTrackInfoC_SayAKGtF",
-            "moduleName": "BanubaVideoEditorTrimSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "canBeAdded",
-            "printedName": "canBeAdded(partTime:to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CMTime",
-                "printedName": "CoreMedia.CMTime",
-                "usr": "c:@SA@CMTime"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[CoreMedia.CMTime]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CMTime",
-                    "printedName": "CoreMedia.CMTime",
-                    "usr": "c:@SA@CMTime"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC10canBeAdded04partG02toSbSo6CMTimea_SayAHGtF",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK06ImportB13TimeBehaviourC10canBeAdded04partG02toSbSo6CMTimea_SayAHGtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "declAttributes": [
               "AccessControl",
@@ -4741,7 +4634,7 @@
           {
             "kind": "Function",
             "name": "createNewSequence",
-            "printedName": "createNewSequence(withMusicTrack:isSlideShow:editingStep:)",
+            "printedName": "createNewSequence(withMusicTrack:isSlideShow:editingStep:maxVideoDuration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4774,11 +4667,17 @@
                 "name": "VideoSequenceEditingStep",
                 "printedName": "BanubaUtilities.VideoSequenceEditingStep",
                 "usr": "s:15BanubaUtilities24VideoSequenceEditingStepO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Func",
-            "usr": "s:24BanubaVideoEditorTrimSDK18SequencesServicingP17createNewSequence14withMusicTrack11isSlideShow11editingStep0bC00bJ0C0A9Utilities05MediaM0CSg_SbAK0bj7EditingR0OtF",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK18SequencesServicingP17createNewSequence14withMusicTrack11isSlideShow11editingStep0bC00bJ0C0A9Utilities05MediaM0CSg_SbAK0bj7EditingR0OtF",
+            "usr": "s:24BanubaVideoEditorTrimSDK18SequencesServicingP17createNewSequence14withMusicTrack11isSlideShow11editingStep03maxB8Duration0bC00bJ0C0A9Utilities05MediaM0CSg_SbAL0bj7EditingR0OSdtF",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK18SequencesServicingP17createNewSequence14withMusicTrack11isSlideShow11editingStep03maxB8Duration0bC00bJ0C0A9Utilities05MediaM0CSg_SbAL0bj7EditingR0OSdtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : BanubaVideoEditorTrimSDK.SequencesServicing>",
             "sugared_genericSig": "<Self where Self : BanubaVideoEditorTrimSDK.SequencesServicing>",
@@ -4999,7 +4898,7 @@
           {
             "kind": "Function",
             "name": "createNewSequence",
-            "printedName": "createNewSequence(withMusicTrack:isSlideShow:editingStep:)",
+            "printedName": "createNewSequence(withMusicTrack:isSlideShow:editingStep:maxVideoDuration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5035,11 +4934,17 @@
                 "printedName": "BanubaUtilities.VideoSequenceEditingStep",
                 "hasDefaultArg": true,
                 "usr": "s:15BanubaUtilities24VideoSequenceEditingStepO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Func",
-            "usr": "s:24BanubaVideoEditorTrimSDK18SequencesServicingPAAE17createNewSequence14withMusicTrack11isSlideShow11editingStep0bC00bJ0C0A9Utilities05MediaM0CSg_SbAK0bj7EditingR0OtF",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK18SequencesServicingPAAE17createNewSequence14withMusicTrack11isSlideShow11editingStep0bC00bJ0C0A9Utilities05MediaM0CSg_SbAK0bj7EditingR0OtF",
+            "usr": "s:24BanubaVideoEditorTrimSDK18SequencesServicingPAAE17createNewSequence14withMusicTrack11isSlideShow11editingStep03maxB8Duration0bC00bJ0C0A9Utilities05MediaM0CSg_SbAL0bj7EditingR0OSdtF",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK18SequencesServicingPAAE17createNewSequence14withMusicTrack11isSlideShow11editingStep03maxB8Duration0bC00bJ0C0A9Utilities05MediaM0CSg_SbAL0bj7EditingR0OSdtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : BanubaVideoEditorTrimSDK.SequencesServicing>",
             "sugared_genericSig": "<Self where Self : BanubaVideoEditorTrimSDK.SequencesServicing>",
@@ -5487,7 +5392,7 @@
           {
             "kind": "Function",
             "name": "createNewSequence",
-            "printedName": "createNewSequence(withMusicTrack:isSlideShow:editingStep:)",
+            "printedName": "createNewSequence(withMusicTrack:isSlideShow:editingStep:maxVideoDuration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5520,11 +5425,17 @@
                 "name": "VideoSequenceEditingStep",
                 "printedName": "BanubaUtilities.VideoSequenceEditingStep",
                 "usr": "s:15BanubaUtilities24VideoSequenceEditingStepO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Func",
-            "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC17createNewSequence14withMusicTrack11isSlideShow11editingStep0bC00bJ0C0A9Utilities05MediaM0CSg_SbAK0bj7EditingR0OtF",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC17createNewSequence14withMusicTrack11isSlideShow11editingStep0bC00bJ0C0A9Utilities05MediaM0CSg_SbAK0bj7EditingR0OtF",
+            "usr": "s:24BanubaVideoEditorTrimSDK16SequencesServiceC17createNewSequence14withMusicTrack11isSlideShow11editingStep03maxB8Duration0bC00bJ0C0A9Utilities05MediaM0CSg_SbAL0bj7EditingR0OSdtF",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK16SequencesServiceC17createNewSequence14withMusicTrack11isSlideShow11editingStep03maxB8Duration0bC00bJ0C0A9Utilities05MediaM0CSg_SbAL0bj7EditingR0OSdtF",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "declAttributes": [
               "AccessControl",
@@ -7379,7 +7290,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sdk:isVideoFitsAspect:videoSequence:videoResolution:)",
+            "printedName": "init(sdk:isVideoFitsAspect:videoSequence:videoResolution:maxTotalVideoDuration:videoDurationConfiguration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7410,11 +7321,23 @@
                 "name": "VideoResolutionConfiguration",
                 "printedName": "BanubaUtilities.VideoResolutionConfiguration",
                 "usr": "s:15BanubaUtilities28VideoResolutionConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoEditorDurationConfig",
+                "printedName": "BanubaVideoEditorTrimSDK.VideoEditorDurationConfig",
+                "usr": "s:24BanubaVideoEditorTrimSDK0bC14DurationConfigV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC3sdk02isB10FitsAspect13videoSequence0K10ResolutionAcA0D12SDKServicing_p_Sb0bC00bL0C0A9Utilities0bM13ConfigurationVtcfc",
-            "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC3sdk02isB10FitsAspect13videoSequence0K10ResolutionAcA0D12SDKServicing_p_Sb0bC00bL0C0A9Utilities0bM13ConfigurationVtcfc",
+            "usr": "s:24BanubaVideoEditorTrimSDK0D7ServiceC3sdk02isB10FitsAspect13videoSequence0K10Resolution08maxTotalB8Duration0kP13ConfigurationAcA0D12SDKServicing_p_Sb0bC00bL0C0A9Utilities0bmQ0VSdAA0bcP6ConfigVtcfc",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK0D7ServiceC3sdk02isB10FitsAspect13videoSequence0K10Resolution08maxTotalB8Duration0kP13ConfigurationAcA0D12SDKServicing_p_Sb0bC00bL0C0A9Utilities0bmQ0VSdAA0bcP6ConfigVtcfc",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "declAttributes": [
               "AccessControl",
@@ -8202,35 +8125,35 @@
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 684,
+      "offset": 270,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 695,
+      "offset": 281,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 761,
+      "offset": 347,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 773,
+      "offset": 359,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 2081,
+      "offset": 2036,
       "length": 5,
       "value": "0.035"
     },
@@ -8300,14 +8223,14 @@
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2531,
+      "offset": 2709,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
       "kind": "BooleanLiteral",
-      "offset": 9871,
+      "offset": 10096,
       "length": 5,
       "value": "false"
     },

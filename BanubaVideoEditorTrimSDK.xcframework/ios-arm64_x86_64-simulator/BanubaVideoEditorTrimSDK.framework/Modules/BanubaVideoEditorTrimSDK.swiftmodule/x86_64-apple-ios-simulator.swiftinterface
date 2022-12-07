@@ -14,12 +14,6 @@ import VEEffectsSDK
 import VideoEditor
 import _Concurrency
 import _StringProcessing
-public struct VideoDurationDefaults {
-  public static var shared: BanubaVideoEditorTrimSDK.VideoEditorDurationConfig
-}
-public struct VideoImportDefaults {
-  public static let maximumNumberOfVideos: Swift.Int
-}
 public struct VideoAspectRatio {
   public static var minFillAspectRatio: CoreFoundation.CGFloat {
     get
@@ -33,13 +27,16 @@ public struct VideoAspectRatio {
 }
 public struct VideoEditorDurationConfig {
   public var maximumVideoDuration: Foundation.TimeInterval
+  public var videoDurations: [Foundation.TimeInterval]
   public var minimumDurationFromCamera: Foundation.TimeInterval
   public var minimumDurationFromGallery: Foundation.TimeInterval
   public var minimumVideoDuration: Foundation.TimeInterval
   public var minimumTrimmedPartDuration: Foundation.TimeInterval
   public var slideshowDuration: Foundation.TimeInterval
-  public init(maximumVideoDuration: Foundation.TimeInterval, minimumDurationFromCamera: Foundation.TimeInterval, minimumDurationFromGallery: Foundation.TimeInterval, minimumVideoDuration: Foundation.TimeInterval, minimumTrimmedPartDuration: Foundation.TimeInterval, slideshowDuration: Foundation.TimeInterval)
-  public func isValidMaxDurationWithTolerance(_ duration: Foundation.TimeInterval) -> Swift.Bool
+  public init(maximumVideoDuration: Foundation.TimeInterval, videoDurations: [Foundation.TimeInterval], minimumDurationFromCamera: Foundation.TimeInterval, minimumDurationFromGallery: Foundation.TimeInterval, minimumVideoDuration: Foundation.TimeInterval, minimumTrimmedPartDuration: Foundation.TimeInterval, slideshowDuration: Foundation.TimeInterval)
+  public static var `default`: BanubaVideoEditorTrimSDK.VideoEditorDurationConfig {
+    get
+  }
   public func validateTrimRecorderVideoSupporting(supportsTrimRecordedVideo: Swift.Bool)
 }
 public class TrimMusicFitter {
@@ -83,6 +80,7 @@ public protocol VideoMetadataStoring {
   func setupCurrentSequence(_ videoSequence: VideoEditor.VideoSequence)
   func videoMetadata(forVideoSequence: VideoEditor.VideoSequence?) -> BanubaUtilities.VideoMetadata?
   func videoCoverMetadata(forVideoSequence: VideoEditor.VideoSequence?) -> BanubaUtilities.VideoCoverMetadata?
+  func videoEditorTrimMetadata(for videoSequence: VideoEditor.VideoSequence) -> BanubaUtilities.VideoEditorTrimMetadata?
   func replaceMetadata(ofVideoSequence: VideoEditor.VideoSequence, withVideoSequence: VideoEditor.VideoSequence)
   func duplicateMetadata(ofVideoSequence: VideoEditor.VideoSequence, toVideoSequence: VideoEditor.VideoSequence)
 }
@@ -123,6 +121,7 @@ public class VideoMetadataStorage : BanubaVideoEditorTrimSDK.VideoMetadataStorin
   public func reset()
   public func setupCurrentSequence(_ videoSequence: VideoEditor.VideoSequence)
   public func videoMetadata(forVideoSequence videoSequence: VideoEditor.VideoSequence?) -> BanubaUtilities.VideoMetadata?
+  public func videoEditorTrimMetadata(for videoSequence: VideoEditor.VideoSequence) -> BanubaUtilities.VideoEditorTrimMetadata?
   public func videoCoverMetadata(forVideoSequence videoSequence: VideoEditor.VideoSequence?) -> BanubaUtilities.VideoCoverMetadata?
   public func replaceMetadata(ofVideoSequence destinationSequence: VideoEditor.VideoSequence, withVideoSequence sourceSequence: VideoEditor.VideoSequence)
   public func duplicateMetadata(ofVideoSequence sourceSequence: VideoEditor.VideoSequence, toVideoSequence destinationSequence: VideoEditor.VideoSequence)
@@ -141,13 +140,10 @@ public class ImportVideoTimeBehaviour {
   final public let minTotalTime: CoreMedia.CMTime
   final public let maxTotalTime: CoreMedia.CMTime
   final public let minPartTime: CoreMedia.CMTime
-  final public let maxPartTime: CoreMedia.CMTime
-  final public let maxPartsCount: Swift.Int
-  public init(minTotalTime: Foundation.TimeInterval, maxTotalTime: Foundation.TimeInterval, minPartTime: Foundation.TimeInterval, maxPartTime: Foundation.TimeInterval, maxPartsCount: Swift.Int)
+  public init(minTotalTime: Foundation.TimeInterval, maxTotalTime: Foundation.TimeInterval, minPartTime: Foundation.TimeInterval)
   public func calculateFirstTrimTimeRanges(for parts: [VideoEditor.VideoEditorAssetTrackInfo])
   public func alignTrimTimeRanges(for parts: [VideoEditor.VideoEditorAssetTrackInfo])
   public func getMaximumTrimDuration(for part: VideoEditor.VideoEditorAssetTrackInfo, allParts: [VideoEditor.VideoEditorAssetTrackInfo]) -> CoreMedia.CMTime
-  public func canBeAdded(partTime: CoreMedia.CMTime, to parts: [CoreMedia.CMTime]) -> Swift.Bool
   public func isTotalDurationEnough(parts: [VideoEditor.VideoEditorAssetTrackInfo]) -> BanubaVideoEditorTrimSDK.TimeResult
   @objc deinit
 }
@@ -157,7 +153,7 @@ public protocol SequencesServicing {
   var lastModifiedSequence: VideoEditor.VideoSequence? { get }
   var sequences: [VideoEditor.VideoSequence] { get }
   var draftedSequences: [VideoEditor.VideoSequence] { get }
-  func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack?, isSlideShow: Swift.Bool, editingStep: BanubaUtilities.VideoSequenceEditingStep) -> VideoEditor.VideoSequence
+  func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack?, isSlideShow: Swift.Bool, editingStep: BanubaUtilities.VideoSequenceEditingStep, maxVideoDuration: Foundation.TimeInterval) -> VideoEditor.VideoSequence
   func cancelAndRemoveCurrentSequence()
   @discardableResult
   func removeSequence(_ videoSequence: VideoEditor.VideoSequence) -> Swift.Bool
@@ -168,7 +164,7 @@ public protocol SequencesServicing {
   func setEditingStep(_ editingStep: BanubaUtilities.VideoSequenceEditingStep, forSequence videoSequence: VideoEditor.VideoSequence)
 }
 extension BanubaVideoEditorTrimSDK.SequencesServicing {
-  public func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack? = nil, isSlideShow: Swift.Bool = false, editingStep: BanubaUtilities.VideoSequenceEditingStep = .camera) -> VideoEditor.VideoSequence
+  public func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack? = nil, isSlideShow: Swift.Bool = false, editingStep: BanubaUtilities.VideoSequenceEditingStep = .camera, maxVideoDuration: Foundation.TimeInterval) -> VideoEditor.VideoSequence
 }
 public class SequencesService : BanubaVideoEditorTrimSDK.SequencesServicing {
   final public let aspectRatio: BanubaUtilities.AspectRatio
@@ -187,7 +183,7 @@ public class SequencesService : BanubaVideoEditorTrimSDK.SequencesServicing {
   final public let videoSequenceService: VideoEditor.VideoSequenceServicing
   final public let metadataStorage: BanubaVideoEditorTrimSDK.VideoMetadataStoring
   public init(videoSequenceService: VideoEditor.VideoSequenceServicing, metadataStorage: BanubaVideoEditorTrimSDK.VideoMetadataStoring, aspectRatio: BanubaUtilities.AspectRatio)
-  public func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack?, isSlideShow: Swift.Bool, editingStep: BanubaUtilities.VideoSequenceEditingStep) -> VideoEditor.VideoSequence
+  public func createNewSequence(withMusicTrack musicTrack: BanubaUtilities.MediaTrack?, isSlideShow: Swift.Bool, editingStep: BanubaUtilities.VideoSequenceEditingStep, maxVideoDuration: Foundation.TimeInterval) -> VideoEditor.VideoSequence
   public func cancelAndRemoveCurrentSequence()
   public func removeSequence(_ videoSequence: VideoEditor.VideoSequence) -> Swift.Bool
   public func duplicateSequence(_ videoSequence: VideoEditor.VideoSequence, withSameName useSameName: Swift.Bool) -> (VideoEditor.VideoSequence, BanubaUtilities.VideoMetadata)
@@ -243,7 +239,7 @@ public class TrimService {
     get
   }
   final public let isVideoFitsAspect: Swift.Bool
-  public init(sdk: BanubaVideoEditorTrimSDK.TrimSDKServicing, isVideoFitsAspect: Swift.Bool, videoSequence: VideoEditor.VideoSequence, videoResolution: BanubaUtilities.VideoResolutionConfiguration)
+  public init(sdk: BanubaVideoEditorTrimSDK.TrimSDKServicing, isVideoFitsAspect: Swift.Bool, videoSequence: VideoEditor.VideoSequence, videoResolution: BanubaUtilities.VideoResolutionConfiguration, maxTotalVideoDuration: Foundation.TimeInterval, videoDurationConfiguration: BanubaVideoEditorTrimSDK.VideoEditorDurationConfig)
   @objc deinit
 }
 extension BanubaVideoEditorTrimSDK.TrimService {
