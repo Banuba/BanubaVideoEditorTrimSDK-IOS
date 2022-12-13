@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KB5thC4/7pd0DN2uUq2cXbxOXmA=
+		y94djCC6VVN9+Me6tvXS7xni+k0=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		a9lH/gUvC6DYH2akp8CSDHNTsZs=
+		EVMzusLrLpRo7I80zzNKgdjKda8=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PY2pnA9Q3sqwfvYZbU+0hy2PbFM=
+		GQmiAanon8TVrto6w2NTMoY0+l8=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		a9lH/gUvC6DYH2akp8CSDHNTsZs=
+		EVMzusLrLpRo7I80zzNKgdjKda8=
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CZCbqkaJRjnolcRnpO5+MJCU2qE=
+		tFTrheEKq6NCaWkrNpAHBA89z4A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZRxNLikXUS3dvN38yZC6nw2Z0DDu1iP5mXE3v4Wwj+w=
+			1GZjyZkJw2cMSTG7PZ8LPXVGTYqvFiR+7hCsz2/mac0=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Itec8S+veMRR6UmZESc7BtWqobM1izOvV4jyTIGA8OI=
+			4WAE22thtILEdkudK4WDmunfeMX+ZMKQTNPUfZ8Z/1Q=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZRxNLikXUS3dvN38yZC6nw2Z0DDu1iP5mXE3v4Wwj+w=
+			1GZjyZkJw2cMSTG7PZ8LPXVGTYqvFiR+7hCsz2/mac0=
 			</data>
 		</dict>
 		<key>Modules/BanubaVideoEditorTrimSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			trJm+bA3t55Tn9Qj32HGdxTTMx4DWgZ0CS/4rpQTZcY=
+			TQhP/ffyVs8RBq+WYSIqwOBnX06/UodoXUe2fgse1WQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
