@@ -8123,126 +8123,126 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 270,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 347,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 359,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/VideoTrimConfigurations.swift",
       "kind": "FloatLiteral",
       "offset": 2036,
       "length": 5,
       "value": "0.035"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimMusicFitter.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimMusicFitter.swift",
       "kind": "Array",
       "offset": 453,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimSequenceComparator.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimSequenceComparator.swift",
       "kind": "Array",
       "offset": 681,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 10,
       "value": "\"metadata\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 279,
       "length": 18,
       "value": "\"sequenceMetadata\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 23,
       "value": "\"cameraSessionMetadata\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 535,
       "length": 14,
       "value": "\"trimMetadata\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 21,
       "value": "\"MusicEditorMetadata\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Metadata\/VideoMetadataStorage.swift",
       "kind": "StringLiteral",
       "offset": 644,
       "length": 15,
       "value": "\"CoverMetadata\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/ImportVideoTimeBehaviour.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/ImportVideoTimeBehaviour.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 10,
       "value": "1000000000"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
       "kind": "BooleanLiteral",
       "offset": 2709,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Sequence\/SequencesService.swift",
       "kind": "BooleanLiteral",
       "offset": 10096,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
       "kind": "FloatLiteral",
       "offset": 259,
       "length": 6,
       "value": "1.0012"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/BanubaVideoEditorTrimSDK\/Trim\/TrimService.swift",
       "kind": "IntegerLiteral",
       "offset": 316,
       "length": 1,
