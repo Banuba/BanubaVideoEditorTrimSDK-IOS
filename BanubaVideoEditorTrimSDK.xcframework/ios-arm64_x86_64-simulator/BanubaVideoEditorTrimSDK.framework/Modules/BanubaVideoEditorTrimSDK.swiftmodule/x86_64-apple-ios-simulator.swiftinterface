@@ -72,7 +72,7 @@ public protocol VideoMetadataStoring {
   var cameraSessionMetadata: BanubaUtilities.CameraSessionMetadata? { get }
   var delegate: BanubaVideoEditorTrimSDK.VideoMetadataStorageDelegate? { get set }
   func update(metadata: BanubaUtilities.CameraSessionMetadata)
-  func update(metadata: [BanubaUtilities.AudioTrackAdoptable], trackVolumes: [Swift.Int32 : Swift.Float], videoVolume: Swift.Float)
+  func update(metadata: [BanubaUtilities.AudioTrackAdoptable], trackVolumes: [Swift.Int32 : Swift.Float], pipVolume: Swift.Float?, videoVolume: Swift.Float)
   func update(metadata: BanubaUtilities.VideoEditorTrimMetadata)
   func update(metadata: BanubaUtilities.VideoEditorMetadata)
   func update(metadata: BanubaUtilities.VideoMetadata)
@@ -113,7 +113,7 @@ public class VideoMetadataStorage : BanubaVideoEditorTrimSDK.VideoMetadataStorin
   }
   required public init(videoSequence: VideoEditor.VideoSequence? = nil, fileManager: Foundation.FileManager = FileManager.default)
   @objc deinit
-  public func update(metadata: [BanubaUtilities.AudioTrackAdoptable], trackVolumes: [Swift.Int32 : Swift.Float], videoVolume: Swift.Float)
+  public func update(metadata: [BanubaUtilities.AudioTrackAdoptable], trackVolumes: [Swift.Int32 : Swift.Float], pipVolume: Swift.Float?, videoVolume: Swift.Float)
   public func update(metadata: BanubaUtilities.CameraSessionMetadata)
   public func update(metadata: BanubaUtilities.VideoEditorTrimMetadata)
   public func update(metadata: BanubaUtilities.VideoMetadata)
