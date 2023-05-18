@@ -2289,6 +2289,84 @@
           {
             "kind": "Function",
             "name": "update",
+            "printedName": "update(musicEditorTracks:trackVolumes:pipVolume:videoVolume:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BanubaUtilities.MusicEditorTrack]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MusicEditorTrack",
+                    "printedName": "BanubaUtilities.MusicEditorTrack",
+                    "usr": "s:15BanubaUtilities16MusicEditorTrackV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.Int32 : Swift.Float]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStoringP6update05musicC6Tracks12trackVolumes9pipVolume05videoN0ySay0A9Utilities05MusicC5TrackVG_SDys5Int32VSfGSfSgSftF",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStoringP6update05musicC6Tracks12trackVolumes9pipVolume05videoN0ySay0A9Utilities05MusicC5TrackVG_SDys5Int32VSfGSfSgSftF",
+            "moduleName": "BanubaVideoEditorTrimSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : BanubaVideoEditorTrimSDK.VideoMetadataStoring>",
+            "sugared_genericSig": "<Self where Self : BanubaVideoEditorTrimSDK.VideoMetadataStoring>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
             "printedName": "update(metadata:)",
             "children": [
               {
@@ -3408,6 +3486,81 @@
             "declKind": "Func",
             "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadata12trackVolumes9pipVolume05videoM0ySay0A9Utilities19AudioTrackAdoptable_pG_SDys5Int32VSfGSfSgSftF",
             "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update8metadata12trackVolumes9pipVolume05videoM0ySay0A9Utilities19AudioTrackAdoptable_pG_SDys5Int32VSfGSfSgSftF",
+            "moduleName": "BanubaVideoEditorTrimSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(musicEditorTracks:trackVolumes:pipVolume:videoVolume:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BanubaUtilities.MusicEditorTrack]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MusicEditorTrack",
+                    "printedName": "BanubaUtilities.MusicEditorTrack",
+                    "usr": "s:15BanubaUtilities16MusicEditorTrackV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.Int32 : Swift.Float]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update05musicC6Tracks12trackVolumes9pipVolume05videoN0ySay0A9Utilities05MusicC5TrackVG_SDys5Int32VSfGSfSgSftF",
+            "mangledName": "$s24BanubaVideoEditorTrimSDK0B15MetadataStorageC6update05musicC6Tracks12trackVolumes9pipVolume05videoN0ySay0A9Utilities05MusicC5TrackVG_SDys5Int32VSfGSfSgSftF",
             "moduleName": "BanubaVideoEditorTrimSDK",
             "declAttributes": [
               "AccessControl",
