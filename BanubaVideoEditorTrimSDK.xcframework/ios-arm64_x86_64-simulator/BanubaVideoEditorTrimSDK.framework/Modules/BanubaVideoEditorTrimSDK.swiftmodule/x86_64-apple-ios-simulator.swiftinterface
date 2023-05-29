@@ -70,6 +70,7 @@ public protocol VideoMetadataStoring {
   var videoCoverMetadata: BanubaUtilities.VideoCoverMetadata? { get }
   var musicEditorMetadata: BanubaUtilities.MusicEditorMetadata? { get }
   var cameraSessionMetadata: BanubaUtilities.CameraSessionMetadata? { get }
+  var autoCutMetadata: BanubaUtilities.AutoCutEffectsMetadata? { get }
   var delegate: BanubaVideoEditorTrimSDK.VideoMetadataStorageDelegate? { get set }
   func update(metadata: BanubaUtilities.CameraSessionMetadata)
   func update(metadata: [BanubaUtilities.AudioTrackAdoptable], trackVolumes: [Swift.Int32 : Swift.Float], pipVolume: Swift.Float?, videoVolume: Swift.Float)
@@ -78,6 +79,7 @@ public protocol VideoMetadataStoring {
   func update(metadata: BanubaUtilities.VideoEditorMetadata)
   func update(metadata: BanubaUtilities.VideoMetadata)
   func update(metadata: BanubaUtilities.VideoCoverMetadata)
+  func update(metadata: BanubaUtilities.AutoCutEffectsMetadata)
   func reset()
   func setupCurrentSequence(_ videoSequence: VideoEditor.VideoSequence)
   func videoMetadata(forVideoSequence: VideoEditor.VideoSequence?) -> BanubaUtilities.VideoMetadata?
@@ -112,6 +114,9 @@ public class VideoMetadataStorage : BanubaVideoEditorTrimSDK.VideoMetadataStorin
   public var cameraSessionMetadata: BanubaUtilities.CameraSessionMetadata? {
     get
   }
+  public var autoCutMetadata: BanubaUtilities.AutoCutEffectsMetadata? {
+    get
+  }
   required public init(videoSequence: VideoEditor.VideoSequence? = nil, fileManager: Foundation.FileManager = FileManager.default)
   @objc deinit
   public func update(metadata: [BanubaUtilities.AudioTrackAdoptable], trackVolumes: [Swift.Int32 : Swift.Float], pipVolume: Swift.Float?, videoVolume: Swift.Float)
@@ -121,6 +126,7 @@ public class VideoMetadataStorage : BanubaVideoEditorTrimSDK.VideoMetadataStorin
   public func update(metadata: BanubaUtilities.VideoMetadata)
   public func update(metadata: BanubaUtilities.VideoEditorMetadata)
   public func update(metadata: BanubaUtilities.VideoCoverMetadata)
+  public func update(metadata: BanubaUtilities.AutoCutEffectsMetadata)
   public func reset()
   public func setupCurrentSequence(_ videoSequence: VideoEditor.VideoSequence)
   public func videoMetadata(forVideoSequence videoSequence: VideoEditor.VideoSequence?) -> BanubaUtilities.VideoMetadata?
